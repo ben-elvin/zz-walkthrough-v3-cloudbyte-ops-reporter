@@ -8,3 +8,8 @@ Built across the Python chapter of the cloud bootcamp, one feature per section.
 ```
 python3 cloudbyte_report.py
 ```
+
+## What's coming
+
+Future versions will read CloudByte's access log and roster to report activity per person and per
+department.
