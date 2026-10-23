@@ -14,6 +14,8 @@ with the event total and time span, then one tidy line per event.
 
 It now ranks users by how active they are, listing the most active first.
 
+It now ranks three views, most active users, busiest hours, and activity by type, all through one shared function.
+
 ## What's coming
 
 Future versions will read CloudByte's staff roster to report activity per person and per
