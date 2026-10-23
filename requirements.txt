@@ -1,0 +1,3 @@
+# CloudByte Ops Reporter dependencies.
+# None yet: the standard library covers the current tooling.
+# Add one package per line here when a task needs it.

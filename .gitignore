@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+
+# Secrets and keys, never commit these
+*.pem
+*.key
+*.env
