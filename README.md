@@ -9,7 +9,10 @@ Built across the Python chapter of the cloud bootcamp, one feature per section.
 python3 cloudbyte_report.py
 ```
 
+It reads CloudByte's access log (`cloudbyte_access.log`) and prints an access report: a header
+with the event total and time span, then one tidy line per event.
+
 ## What's coming
 
-Future versions will read CloudByte's access log and roster to report activity per person and per
+Future versions will read CloudByte's staff roster to report activity per person and per
 department.
