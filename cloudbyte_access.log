@@ -1,45 +1,45 @@
-2026-06-15T08:42:13 alice login
-2026-06-15T08:45:01 bob login
-2026-06-15T08:51:30 carol login
-2026-06-15T09:03:22 dave login
-2026-06-15T09:10:45 emma login
-2026-06-15T09:12:08 alice upload
-2026-06-15T09:18:54 frank login
-2026-06-15T09:25:17 grace login
-2026-06-15T09:31:40 bob upload
-2026-06-15T09:42:03 henry login
-2026-06-15T09:48:29 iris login
-2026-06-15T09:55:11 alice deploy
-2026-06-15T10:02:38 jack login
-2026-06-15T10:08:52 kate login
-2026-06-15T10:15:19 leo login
-2026-06-15T10:22:44 carol upload
-2026-06-15T10:30:07 dave deploy
-2026-06-15T10:41:33 emma download
-2026-06-15T10:52:16 frank upload
-2026-06-15T11:05:48 bob download
-2026-06-15T11:13:22 grace upload
-2026-06-15T11:24:55 henry download
-2026-06-15T11:36:10 alice logout
-2026-06-15T11:47:39 iris upload
-2026-06-15T12:01:04 kate deploy
-2026-06-15T12:14:28 jack download
-2026-06-15T12:28:51 leo upload
-2026-06-15T12:45:17 carol logout
-2026-06-15T13:02:43 dave download
-2026-06-15T13:19:08 emma logout
-2026-06-15T13:35:32 frank download
-2026-06-15T13:51:59 bob login
-2026-06-15T14:08:24 grace logout
-2026-06-15T14:22:47 henry upload
-2026-06-15T14:39:13 alice login
-2026-06-15T14:55:38 iris download
-2026-06-15T15:12:02 kate logout
-2026-06-15T15:28:26 jack logout
-2026-06-15T15:44:51 leo download
-2026-06-15T16:01:15 dave logout
-2026-06-15T16:18:40 frank logout
-2026-06-15T16:35:04 henry logout
-2026-06-15T17:02:29 alice logout
-2026-06-15T17:30:53 iris logout
-2026-06-15T17:58:02 bob logout
+2026-06-15T08:42:13 alice login "/auth/login" 200
+2026-06-15T08:45:01 bob login "/auth/login" 200
+2026-06-15T08:51:30 carol login "/auth/login" 200
+2026-06-15T09:03:22 dave login "/auth/login" 200
+2026-06-15T09:10:45 emma login "/auth/login" 200
+2026-06-15T09:12:08 alice upload "/files/upload" 200
+2026-06-15T09:18:54 frank login "/auth/login" 200
+2026-06-15T09:25:17 grace login "/auth/login" 200
+2026-06-15T09:31:40 bob upload "/files/upload" 200
+2026-06-15T09:42:03 henry login "/auth/login" 200
+2026-06-15T09:48:29 iris login "/auth/login" 200
+2026-06-15T09:55:11 alice deploy "/deploy/release" 200
+2026-06-15T10:02:38 jack login "/auth/login" 200
+2026-06-15T10:08:52 kate login "/auth/login" 200
+2026-06-15T10:15:19 leo login "/auth/login" 200
+2026-06-15T10:22:44 carol upload "/files/upload" 200
+2026-06-15T10:30:07 dave deploy "/deploy/release" 500
+2026-06-15T10:41:33 emma download "/reports/monthly ops summary" 200
+2026-06-15T10:52:16 frank upload "/files/upload" 200
+2026-06-15T11:05:48 bob download "/reports/monthly ops summary" 404
+2026-06-15T11:13:22 grace upload "/files/upload" 200
+2026-06-15T11:24:55 henry download "/reports/monthly ops summary" 404
+2026-06-15T11:36:10 alice logout "/auth/logout" 200
+2026-06-15T11:47:39 iris upload "/files/upload" 200
+2026-06-15T12:01:04 kate deploy "/deploy/release" 200
+2026-06-15T12:14:28 jack download "/reports/quarterly review" 200
+2026-06-15T12:28:51 leo upload "/files/upload" 200
+2026-06-15T12:45:17 carol logout "/auth/logout" 200
+2026-06-15T13:02:43 dave download "/reports/monthly ops summary" 200
+2026-06-15T13:19:08 emma logout "/auth/logout" 200
+2026-06-15T13:35:32 frank download "/reports/monthly ops summary" 404
+2026-06-15T13:51:59 bob login "/auth/login" 200
+2026-06-15T14:08:24 grace logout "/auth/logout" 200
+2026-06-15T14:22:47 henry upload "/files/upload" 200
+2026-06-15T14:39:13 alice login "/auth/login" 200
+2026-06-15T14:55:38 iris download "/reports/quarterly review" 404
+2026-06-15T15:12:02 kate logout "/auth/logout" 200
+2026-06-15T15:28:26 jack logout "/auth/logout" 200
+2026-06-15T15:44:51 leo download "/reports/quarterly review" 404
+2026-06-15T16:01:15 dave logout "/auth/logout" 200
+2026-06-15T16:18:40 frank logout "/auth/logout" 200
+2026-06-15T16:35:04 henry logout "/auth/logout" 200
+2026-06-15T17:02:29 alice logout "/auth/logout" 200
+2026-06-15T17:30:53 iris logout "/auth/logout" 200
+2026-06-15T17:58:02 bob logout "/auth/logout" 200
